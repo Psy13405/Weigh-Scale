@@ -14,8 +14,8 @@ Building a custom weigh scale to measure up to 20 kg with high precision. Using 
 
 ## Hardware and Software
 
-Hardware: HX711 Amplifier Board, XIAO ESP32C3, Aluminum Bar-type Load Cell, USB Debug Cable, Jumper Wires, 2x M4 and 2x M5 hex screws
-Software: ESP-IDF in preferred configuration. Example: Setup through PlatformIO extension in VS Code
+Hardware: HX711 Amplifier Board, XIAO ESP32C3, Aluminum Bar-type Load Cell, USB Debug Cable, Jumper Wires, 2x M4 and 2x M5 hex screws\
+Software: ESP-IDF in preferred configuration. Example: Setup through PlatformIO extension in VS Code\
 
 ## Building and Running
 
@@ -23,4 +23,4 @@ Solder load cell wires to HX711 board and use jumper wires to connect to ESP. 3D
 
 ## Results
 
-At present, the load cell reliably measures weight up to 10 kg and can send data wirelessly via Bluetooth Low Energy (BLE). Next steps are integrating LCD module, modeling full frame, and finishing PCB layout for fabrication.
+Currently, the load cell reliably measures weight up to 10 kg and sends data wirelessly via Bluetooth Low Energy (BLE). Next steps include integrating an LCD module, modeling the full frame, and finishing the PCB layout for fabrication.
